@@ -1,4 +1,5 @@
 'use strict';
+
 angular.module('moviecat', [
   'ngRoute',
   'moviecat.movie_detail',
