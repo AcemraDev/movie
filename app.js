@@ -7,8 +7,8 @@ angular.module('moviecat', [
 ])
 .constant('AppConfiguration',{
     listPageSize: 8,
-    addressApiList: 'http://api.douban.com/v2/movie/',
-    addressApiDetail: 'http://api.douban.com//v2/movie/subject/',
+    addressApiList: '//api.douban.com/v2/movie/',
+    addressApiDetail: '//api.douban.com//v2/movie/subject/',
 })
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/in_theaters/1'});
